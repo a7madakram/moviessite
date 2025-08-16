@@ -1,0 +1,37 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.logo img {
+    max-width: 200px;
+    height: 200px;
+    display:block;
+}
+.menu-list {
+    list-style: none;
+    padding: 0;
+}
+.menu-list li {
+    display: inline;
+    margin-right: 15px;
+}
+.menu-list li a {
+    text-decoration: none;
+    color: #eae1e1;
+}
+header {
+    background-color: #2b0428;
+}
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.showing {
+    display: flex;
+    justify-content: space-evenly;
+}
+.movie img{
+    width:205px;
+    height:350px;
+}
